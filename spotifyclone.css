@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    color: white;
+    min-height: 2vh;
+    margin: auto;
+    align-items: center;
+}
+    
+
+nav ul li{
+    list-style-type: none;
+    padding: 0px 12px;
+    font-size: 25px;
+}
+    
+.title{
+        margin: 3px 3px;
+}
+
+.container{
+    position: relative;
+    min-height: 72vh;
+    color:white;
+   font-family: 'Varela Round', sans-serif;
+    margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('background.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.songitem{
+    
+    margin: 5px 0px;
+    height: 6vh;
+    background-color: aqua;
+    width: 50%;
+    color: black;
+    padding: 5px 5px;
+    align-items: center;
+    border-radius: 5px;
+}
+.play{
+    padding: 0px 3px;
+}
+.bottom{
+     /* position: absolute;
+     bottom: 0px;
+     width: 100%;
+     left: 2px;
+     background-color: black;
+     /* margin: 0px 0px;
+     padding: 10px 0px; */
+     min-height: 1vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background-color: black;
+     margin: 0px 30px;
+     padding: 2px 0px;
+     
+     
+    /* text-align: center;
+    align-items: center; */
+}
+input{
+
+    height: 2vh;
+    margin: 3px 0px;
+    width: 70%;
+}
+
+.icons{
+    min-height: 2vh;
+    display: flex;
+    background-color: white;
+    width: 100px;
+    padding: 3px 20px;
+    margin: 8px 0px;
+    border-radius: 5px;
+}
+.icons i{
+    
+    align-items: center;
+    color: blue;
+    padding: 5px 10px;
+}
